@@ -1,7 +1,5 @@
 class Solution {
-
     static Boolean isSubsetSum(int arr[], int sum) {
-        // code here
         int n = arr.length;
         boolean t[][] = new boolean [n+1][sum+1];
         
